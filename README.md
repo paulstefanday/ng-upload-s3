@@ -19,6 +19,12 @@ npm install ng-upload-s3
 ## Usage
 
 ```
-javascript
+require('ng-upload-s3')
+angular.app('example', ['ng-upload-s3'])
+<file-input file="vm.image" required="true"></file-input>
+
 ```
 
+## Options
+file: variable you want updated with an image when uploaded
+required: sets input as required for processing form submissions

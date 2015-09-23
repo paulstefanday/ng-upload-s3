@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/paulstefanday/ng-upload-s3#readme",
   "dependencies": {
-    "unique-random-array": "1.0.0"
   },
   "devDependencies": {
     "babel": "5.8.21",
