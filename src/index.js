@@ -1,4 +1,4 @@
-angular.module('')
+module.exports = angular.module('ng-upload-s3')
   .directive('fileModel', /*@ngInject*/ function ($parse) {
       return {
           restrict: 'A',
