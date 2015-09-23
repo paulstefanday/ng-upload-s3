@@ -1,9 +1,7 @@
 {
   "name": "ng-upload-s3",
-  "version": "0.0.1",
   "description": "uploading files via s3 with angular",
   "main": "dist/index.js",
-  "version":"0.0.1",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "babel src/index.js -o dist/index.js",
