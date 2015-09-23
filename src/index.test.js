@@ -1,6 +1,13 @@
 import {expect} from 'chai';
 // import starWars from './index';
 
+
+desrcibe('test', function() {
+  it('should be true', function(){
+    expect(true).to.equal(true);
+  })
+})
+
 // describe('starwars-names', function() {
 //   describe('all', function() {
 //     it('should be an array of strings', function() {
