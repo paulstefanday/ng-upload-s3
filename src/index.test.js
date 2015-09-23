@@ -2,7 +2,7 @@ import {expect} from 'chai';
 // import starWars from './index';
 
 
-desrcibe('test', function() {
+describe('test', function() {
   it('should be true', function(){
     expect(true).to.equal(true);
   })
