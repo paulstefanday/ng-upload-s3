@@ -38,14 +38,7 @@ module.exports = angular.module('ng-upload-s3')
       return {
           restrict: 'E',
           scope: { file: '=', required: '@' },
-          template: `
-.full(ng-if="file")
-  img(src="{{ file }}" ng-if="file" style="width:100px;height:100px;")
-  a.close.ion-close-round(ng-click="file = ''")
-
-.full(ng-if="!file")
-  input( type="file" file-model="selectedFile" style="width:80%;" )
-  a.button(ng-click="uploadFile()" style="width: 14%; height: 22px; padding: 6px 10px; float: right; text-align: center;") Upload`,
+          template: require('./index.jade'),
           controller: ($scope, fileUpload) => {
             var self = $scope;
 
