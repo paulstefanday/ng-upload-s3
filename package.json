@@ -1,7 +1,9 @@
 {
-  "name": "profilessdk",
-  "description": "SDK for Profiles api",
+  "name": "ng-upload-s3",
+  "version": "0.0.1",
+  "description": "uploading files via s3 with angular",
   "main": "dist/index.js",
+  "version":"0.0.1",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "babel src/index.js -o dist/index.js",
@@ -15,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulstefanday/Profiles-Node.git"
+    "url": "https://github.com/paulstefanday/ng-upload-s3.git"
   },
   "keywords": [
     "random",
@@ -25,9 +27,9 @@
   "author": "Paul Day",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paulstefanday/Profiles-Node/issues"
+    "url": "https://github.com/paulstefanday/ng-upload-s3/issues"
   },
-  "homepage": "https://github.com/paulstefanday/Profiles-Node#readme",
+  "homepage": "https://github.com/paulstefanday/ng-upload-s3#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
